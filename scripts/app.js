@@ -197,10 +197,10 @@ function renderBoard(domReference) {
       }
       tableJeopardy.append(trClueRow);
     }
+    domReference.append(tableJeopardy);
   } else {
     gameOver();
   }
-  domReference.append(tableJeopardy);
 }
 
 function getCurrentScores() {
